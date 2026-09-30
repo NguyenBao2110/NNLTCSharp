@@ -2,9 +2,10 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+namespace Lab03{
 class Baitap2_2
 {
-     static void Run()
+     public static void Run()
 	 {
 	      string[] mangchuoi = { "đầu", "lòng", "hai", "ả", "tố", "nga", "Thúy", "Kiều", "là", "chị", "em", "là", "Thúy", "Vân" };
 		  
@@ -25,4 +26,5 @@ class Baitap2_2
 		  Console.WriteLine("d. Các từ bắt đầu bằng chữ in hoa: " + string.Join(" ", CauC));
 		  
 	 }
+}
 }

@@ -2,9 +2,10 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+namespace Lab03{
 class Baitap3_2
 {
-    static void Run()
+    public static void Run()
     {
 	    string[] monan = { "Bún bò Huế", "Hủ tiếu heo", "Bánh canh", "Bánh mì", "Nước Cà phê", "Mì quảng", "Cơm tấm", "Nước Chanh dây", "Mì xào", "Bún riêu", "Bánh cuốn", "Mì gói", "Bún chả", "Hủ tiếu Nam vang" };
 		
@@ -33,4 +34,5 @@ class Baitap3_2
 		 Console.WriteLine($"c. Số món có từ đầu tiên là 'Bánh': {CauC}");
 		
 	}
+}
 }

@@ -2,9 +2,10 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+namespace Lab03{
 class Baitap2_1
 {
-    static void Run()
+    public static void Run()
 	{
 	    int[] mangso= { 50, 42, 16, 3, 9, 8, 12, 7, 24, 0 };
 		
@@ -21,4 +22,5 @@ class Baitap2_1
 		Console.WriteLine("c. Số chẵn giữ nguyên, số lẻ đổi dấu: " + string.Join(", ", CauC));
         Console.WriteLine();
 	}
+}
 }

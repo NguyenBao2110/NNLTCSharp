@@ -2,9 +2,10 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+namespace Lab03{
 class Baitap3_1
 {
-    static void Run()
+    public static void Run()
     {
 	    int[] mangso = { 50, 42, 12, 3, 9, 8, 1, 50, 3, 42, 85 };
 	    
@@ -45,4 +46,5 @@ class Baitap3_1
 		Console.WriteLine();
 
 	}
+}
 }
