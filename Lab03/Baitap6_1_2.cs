@@ -5,8 +5,6 @@ using System.Linq;
 
 namespace Lab03{
 
-    class Baitap6_1_2
-    {
 // ================= BÀI 6.1 =================
 public class He
 {
@@ -73,9 +71,9 @@ public class DuLieu
     }
 }
 
-class Program
+class Baitap6_1_2
 {
-    static void Main()
+    public static void Run()
     {
         List<He> dsHe = DuLieu.DS_He();
         List<MonHoc> dsMon = DuLieu.DS_Mon();
@@ -181,5 +179,4 @@ class Program
     }
 }
 
-}
 }

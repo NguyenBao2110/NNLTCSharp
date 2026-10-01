@@ -5,8 +5,7 @@ using System.Linq;
 
 namespace Lab03{
 
-    class Baitap5_1_2
-    {
+   
 // 1. Tạo lớp MonHoc với các thuộc tính theo yêu cầu
 public class MonHoc
 {
@@ -56,9 +55,9 @@ public class DuLieu
     }
 }
 
-class Program
+class Baitap5_1_2
 {
-    static void Run()
+    public static void Run()
     {
         List<MonHoc> ds = DuLieu.DS_Mon();
 
@@ -175,6 +174,5 @@ class Program
             foreach (var m in nhom.MonHocs) Console.WriteLine($"      {m.MaMon} - {m.TenMon} ({m.SoTiet} tiết)");
         }
     }
-}
 }
 }
