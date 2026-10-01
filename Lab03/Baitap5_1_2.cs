@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Lab03{
+namespace Lab03.Bai5{
 
    
 // 1. Tạo lớp MonHoc với các thuộc tính theo yêu cầu
@@ -55,7 +55,7 @@ public class DuLieu
     }
 }
 
-class Baitap5_1_2
+public class Baitap5_1_2
 {
     public static void Run()
     {

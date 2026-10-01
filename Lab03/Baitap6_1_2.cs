@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Lab03{
+namespace Lab03.Bai6{
 
 // ================= BÀI 6.1 =================
 public class He
@@ -71,14 +71,14 @@ public class DuLieu
     }
 }
 
-class Baitap6_1_2
+public class Baitap6_1_2
 {
     public static void Run()
     {
         List<He> dsHe = DuLieu.DS_He();
         List<MonHoc> dsMon = DuLieu.DS_Mon();
 
-        Console.WriteLine("========== BÀI 6.2: JOIN VÀ CÁC TOÁN TỬ TẬP HỢP ==========\n");
+        Console.WriteLine("========== BÀI 6.1/6.2: JOIN VÀ CÁC TOÁN TỬ TẬP HỢP ==========\n");
 
         // a. Dùng join để liệt kê: Tên hệ, Mã môn, Tên môn.
         var cauA = dsMon.Join(dsHe,

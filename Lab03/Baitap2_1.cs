@@ -17,9 +17,9 @@ class Baitap2_1
 		var CauB= mangso.Where(x => x <= 3);
 		Console.WriteLine("b.Nho hon hoac bang 3: "+ string.Join(",", CauB));
 		
-		//c.Tạo một dãy mới: số chẵn chia đôi, số lẻ giữ nguyên giá trị.
+		//c.Tạo một dãy mới: Số chẵn chia đôi, số lẻ giữ nguyên.
 		int[] CauC= mangso.Select(x => x % 2 == 0 ? x/2 : x).ToArray();
-		Console.WriteLine("c. Số chẵn giữ nguyên, số lẻ đổi dấu: " + string.Join(", ", CauC));
+		Console.WriteLine("c. Số chẵn chia đôi, số lẻ giữ nguyên: " + string.Join(", ", CauC));
         Console.WriteLine();
 	}
 }

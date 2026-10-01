@@ -26,8 +26,8 @@ class Baitap3_1
 		int min=mangso.Min();
 		
 		Console.WriteLine($"b. Tổng giá trị: {tong}");
-        Console.WriteLine($"   Giá trị lớn nhất: {min}");
-        Console.WriteLine($"   Giá trị nhỏ nhất: {max}");
+        Console.WriteLine($"   Giá trị nhỏ nhất: {min}");
+        Console.WriteLine($"   Giá trị lớn nhất: {max}");
 		
 		// c. Số lượng giá trị khác nhau trong mảng
 		

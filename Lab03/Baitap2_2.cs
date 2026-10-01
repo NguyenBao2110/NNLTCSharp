@@ -21,9 +21,9 @@ class Baitap2_2
 		       Console.WriteLine("   "+item);
 		  }
 		  
-		  // c. Liệt kê các phần tử có chứa ký tự "u"
+		  // c. Các từ bắt đầu bằng chữ in hoa
 		  var CauC = mangchuoi.Where(s => s.Length>0 && char.IsUpper(s[0]));
-		  Console.WriteLine("d. Các từ bắt đầu bằng chữ in hoa: " + string.Join(" ", CauC));
+		  Console.WriteLine("c. Các từ bắt đầu bằng chữ in hoa: " + string.Join(" ", CauC));
 		  
 	 }
 }

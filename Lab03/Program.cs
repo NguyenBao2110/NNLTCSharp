@@ -1,4 +1,6 @@
 ﻿using System;
+using Lab03.Bai5;   
+using Lab03.Bai6;   
 
 namespace Lab03
 {
@@ -55,12 +57,12 @@ namespace Lab03
 
                     case "6":
                         Console.WriteLine(">>> BAI 5.1 & 5.2 <<<\n");
-                        Baitap5_1_2.Program.Run();
+                        Baitap5_1_2.Run();     // <-- SỬA: bỏ ".Program"
                         break;
 
                     case "7":
                         Console.WriteLine(">>> BAI 6.1 & 6.2 <<<\n");
-                        Baitap6_1_2.Program.Run();
+                        Baitap6_1_2.Run();     // <-- SỬA: bỏ ".Program"
                         break;
 
                     case "0":
